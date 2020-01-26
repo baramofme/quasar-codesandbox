@@ -1,6 +1,7 @@
 ![Quasar Framework logo](https://cdn.rawgit.com/quasarframework/quasar-art/863c14bd/dist/svg/quasar-logo-full-inline.svg)
 
 # Quasar App Codesandbox Template
+
 > A Template for using Quasar on Codesandbox.io.
 
 ![Codesanbox Entry Server Screen](https://cdn.quasar.dev/codesandbox/codesandbox-entry.jpg)
@@ -25,7 +26,7 @@ The server and container will start automatically. Once you make any change and 
 
 ## Different Modes
 
-This template currently loads a *SPA* application mode of Quasar.
+This template currently loads a _SPA_ application mode of Quasar.
 
 If you would like to work with the PWA or SSR versions of Quasar, please make the following changes to the `start` script entries in the `package.json`.
 
@@ -55,7 +56,7 @@ Once that is done, it should take a minute or so to reload the application in th
 
 ## Quasar Repositories
 
-* [Quasar Framework](https://github.com/quasarframework/quasar)
+- [Quasar Framework](https://github.com/quasarframework/quasar)
 
 ## Contributing
 
@@ -80,3 +81,13 @@ We're excited if you want to contribute to Quasar under any form (report bugs, w
 Copyright (c) 2016-present Razvan Stoenescu
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
+
+## Author's Notes
+
+- Examples here are mostly implementations coming from Quasar community questions or issues. Some are workarounds (only if it's really coming from a bug rather than missing out on the docs or not understanding it) and working solutions. As devs we have different ideas of how our apps would work, extending and customizing the components to our needs is for me the essence of Vue components. Quasar components are already built to be used out of the box, but the team can't just cater all feature requests from the community into their components since it can possibly pollute its api creating unnecessary complexity, since not all requested functionality will be used by majority of the consumers, so leaving those in the devland is more appropriate imho.
+
+I hope with some examples in this sandbox, it can give ideas to you (fellow devs) viewing this as to how to tailor your own extensions of Quasar components customizing it according to your needs.
+
+Like you, I'm still learning the framework stack itself Vue, Quasar, Cordova etc. with the help of the Quasar docs, other references and escpecially from the community. Let's learn together and make functional beautiful apps using this awesome framework :).
+
+Thanks, have fun ~ metalsadman
